@@ -1,0 +1,30 @@
+#box {
+	transform: rotate(-90deg);
+}
+#button {
+	border: none;
+	background-color: gray;
+	width: 70;
+	height: 50;
+}
+canvas {
+-webkit-touch-callout: none;
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+
+/*optional pixelated*/
+image-rendering: optimizeSpeed;             /* Older versions of FF          */
+image-rendering: -moz-crisp-edges;          /* FF 6.0+                       */
+image-rendering: -webkit-optimize-contrast; /* Safari                        */
+image-rendering: -o-crisp-edges;            /* OS X & Windows Opera (12.02+) */
+image-rendering: pixelated;                 /* Awesome future-browsers       */
+-ms-interpolation-mode: nearest-neighbor;   /* IE                            */
+}
+html {
+	background-color: white;
+	color: black;
+	font-family: courier new;
+}
